@@ -16,7 +16,7 @@ const ShowFlight = ({ flights }) => {
                 <p className="text-sm mt-1">Number: {flight.flightNumber}</p>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row space-x-0 md:space-x-6 md:space-y-0 space-y-2 md:space-y-0">
+            <div className="flex flex-col md:flex-row space-x-0 md:space-x-6 space-y-2 md:space-y-1">
               <p className="text-lg md:text-xl text-gray-700">Departure: {flight.departureTime}</p>
               <p className="text-lg md:text-xl text-gray-700">Arrival: {flight.arrivalTime}</p>
             </div>
